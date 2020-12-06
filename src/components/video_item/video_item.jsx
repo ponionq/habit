@@ -9,7 +9,7 @@ const Videoitem = ({video}) => {
 
     return (
         <li className={styles.item}>
-            <div >
+            <div>
                 <img src={video.snippet.thumbnails.default.url} alt="이미지"/>
                 <p>{video.snippet.title}</p>
             </div>
